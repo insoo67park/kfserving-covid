@@ -16,23 +16,23 @@ echo '
 # https://www.kubeflow.org/docs/started/k8s/overview/
 
 # https://github.com/kubernetes/kubernetes/releases
-#K8S_VER=v1.15.2
-K8S_VER=v1.16.15
+K8S_VER=v1.15.2
+#K8S_VER=v1.16.15
 #K8S_VER=v1.17.17
 #K8S_VER=v1.18.16
 #K8S_VER=v1.19.7
 #K8S_VER=v1.20.4
 
 # https://github.com/kubeflow/manifests/tree/master/distributions/kfdef
-#KF_VER=v1.0.2
+KF_VER=v1.0.2
 #KF_VER=v1.1.0
-KF_VER=v1.2.0
+#KF_VER=v1.2.0
 CONFIG_URI=https://github.com/kubeflow/manifests/raw/master/distributions/kfdef/kfctl_k8s_istio.${KF_VER}.yaml
 
 # https://github.com/kubeflow/kfctl/releases
-#KFCTL_DOWNLOSF=https://github.com/kubeflow/kfctl/releases/download/v1.0.2/kfctl_v1.0.2-0-ga476281_linux.tar.gz
+KFCTL_DOWNLOSF=https://github.com/kubeflow/kfctl/releases/download/v1.0.2/kfctl_v1.0.2-0-ga476281_linux.tar.gz
 #KFCTL_DOWNLOSF=https://github.com/kubeflow/kfctl/releases/download/v1.1.0/kfctl_v1.1.0-0-g9a3621e_linux.tar.gz
-KFCTL_DOWNLOSF=https://github.com/kubeflow/kfctl/releases/download/v1.2.0/kfctl_v1.2.0-0-gbc038f9_linux.tar.gz
+#KFCTL_DOWNLOSF=https://github.com/kubeflow/kfctl/releases/download/v1.2.0/kfctl_v1.2.0-0-gbc038f9_linux.tar.gz
 
 INC_S=s-inc-u8xe42b1
 INC_E=e-inc-u8xe42b1
