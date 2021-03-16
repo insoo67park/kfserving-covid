@@ -16,8 +16,8 @@ echo '
 # https://www.kubeflow.org/docs/started/k8s/overview/
 
 # https://github.com/kubernetes/kubernetes/releases
-K8S_VER=v1.15.2
-#K8S_VER=v1.16.15
+#K8S_VER=v1.15.2
+K8S_VER=v1.16.15
 #K8S_VER=v1.17.17
 #K8S_VER=v1.18.16
 #K8S_VER=v1.19.7
