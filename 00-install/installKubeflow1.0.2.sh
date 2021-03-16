@@ -2,6 +2,15 @@
 
 echo '
 =================================
+기존 minikube 제거
+---------------------------------
+'
+minikube stop
+minikube delete
+
+
+echo '
+=================================
 도커 설치
 ---------------------------------
 '
@@ -87,7 +96,8 @@ tar -xvf kfctl_*.tar.gz
 
 export PATH=$PATH:$KF_HOME
 export KF_DIR=${KF_HOME}/${KF_NAME}
-export CONFIG_URI=https://github.com/kubeflow/manifests/raw/master/kfdef/kfctl_k8s_istio.v1.0.2.yaml
+export CONFIG_URI=CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_k8s_istio.v1.0.2.yaml"
+# export CONFIG_URI=https://github.com/kubeflow/manifests/raw/master/kfdef/kfctl_k8s_istio.v1.0.2.yaml
 # export CONFIG_URI=https://raw.githubusercontent.com/kubeflow/manifests/master/kfdef/kfctl_k8s_istio.v1.1.0.yaml
 mkdir -p ${KF_DIR}
 cd ${KF_DIR}
